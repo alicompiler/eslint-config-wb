@@ -6,11 +6,11 @@ module.exports = {
     },
     extends: [
         'eslint:recommended',
-        'plugin:prettier/recommended',
+        'plugin:@typescript-eslint/recommended',
+        "plugin:@typescript-eslint/eslint-recommended",
         'airbnb-base',
         "airbnb-typescript/base",
-        "plugin:@typescript-eslint/eslint-recommended",
-        'plugin:@typescript-eslint/recommended',
+        'plugin:prettier/recommended',
     ],
     plugins: [
         'prettier',
@@ -30,7 +30,6 @@ module.exports = {
     rules: {
         'prettier/prettier': 'error',
         indent: 'off',
-        '@typescript-eslint/indent': 'off',
         "import/no-import-module-exports": "off",
         "import/prefer-default-export": "off",
         "import/no-default-export": "error",
