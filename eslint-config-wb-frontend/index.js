@@ -6,6 +6,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'airbnb',
+        'airbnb-typescript',
         'airbnb/hooks',
         'plugin:react/recommended',
         'plugin:@typescript-eslint/recommended',
@@ -24,6 +25,7 @@ module.exports = {
         },
         ecmaVersion: 'latest',
         sourceType: 'module',
+        project: './tsconfig.json',
     },
 
     rules: {
