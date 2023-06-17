@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-wb-frontend",
+  "name": "eslint-config-wbox-frontend",
   "version": "0.1.0",
   "description": "shared eslint configuration for wb libraries and apps",
   "main": "index.js",
