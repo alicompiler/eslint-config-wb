@@ -39,5 +39,6 @@ module.exports = {
         "import/no-import-module-exports": "off",
         "import/no-default-export": "error",
         "import/no-cycle": "off",
+        "react/require-default-props": "off",
     },
 };
