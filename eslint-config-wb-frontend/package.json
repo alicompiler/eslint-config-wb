@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wb-frontend",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "shared eslint configuration for wb libraries and apps",
   "main": "index.js",
   "author": "Ali Faris",
