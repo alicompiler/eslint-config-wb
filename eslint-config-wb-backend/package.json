@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-wb-backend",
-  "version": "0.0.1",
+  "name": "eslint-config-wbox-backend",
+  "version": "0.1.0",
   "description": "shared eslint configuration for wb libraries and apps",
   "main": "index.js",
   "author": "Ali Faris",
